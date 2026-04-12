@@ -37,15 +37,15 @@ This project applies the machine learning pipeline to a tabular dataset (Home Va
 ```
 .
 ├── src/
-│   ├── EDA+preprocessing.ipynb     # Exploratory Data Analysis & data preprocessing
-│   ├── logistic regression.ipynb   # Logistic Regression model training & evaluation
-│   ├── SVM.ipynb                   # Support Vector Machine training & evaluation
-│   ├── Random forest.ipynb         # Random Forest training & evaluation
-│   └── Deep learning.ipynb         # (Bonus) Deep learning pipeline & comparison
+│   ├── EDA+preprocessing.ipynb     # Exploratory Data Analysis and data preprocessing
+│   ├── logistic regression.ipynb   # Logistic Regression model training and evaluation
+│   ├── SVM.ipynb                   # Support Vector Machine training and evaluation
+│   ├── Random forest.ipynb         # Random Forest training and evaluation
+│   └── Deep learning.ipynb         # Deep learning pipeline and comparison
 ├── dataset/
 │   └── home_value_prediction.csv   # Raw dataset
 ├── features/                       # Saved feature vectors (.npy / .h5)
-├── reports/                        # PDF report
+├── reports/                        # Report
 └── README.md
 ```
 
@@ -58,11 +58,10 @@ This project applies the machine learning pipeline to a tabular dataset (Home Va
 Make sure the following libraries are installed before running any notebook:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn xgboost
+pip install numpy pandas matplotlib seaborn scikit-learn
 # For the deep learning notebook:
 pip install torch torchvision  # or: pip install tensorflow
 ```
-
 ### Step-by-step Instructions
 
 1. **Clone this repository:**
@@ -95,13 +94,6 @@ pip install torch torchvision  # or: pip install tensorflow
 - **Name:** Home Value Prediction  
 - **File:** `dataset/home_value_prediction.csv`  
 - **Description:** Tabular dataset for predicting home values, containing numerical and categorical features with missing values.
-
----
-
-##  Report & Notebook Links
-
-- PDF Report: `reports/` *(or link here)*  
-- Colab Notebook: *(add link here)*  
 
 ---
 
