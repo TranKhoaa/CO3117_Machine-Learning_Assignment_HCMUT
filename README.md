@@ -43,7 +43,7 @@ This project applies the machine learning pipeline to a tabular dataset (Home Va
 │   ├── Random forest.ipynb         # Random Forest training and evaluation
 │   └── Deep learning.ipynb         # Deep learning pipeline and comparison
 ├── dataset/
-│   └── home_value_prediction.csv   # Raw dataset
+│   └── home_value_prediction.csv   # dataset
 ├── features/                       # Saved feature vectors (.npy / .h5)
 ├── reports/                        # Report
 └── README.md
@@ -69,23 +69,10 @@ pip install torch torchvision  # or: pip install tensorflow
    git clone <repository-url>
    cd <repository-folder>
    ```
-
 2. **Ensure the dataset is in place:**  
-   The file `dataset/home_value_prediction.csv` must exist before running any notebook. If not present, download it from [[home_dataset](https://drive.google.com/drive/folders/1U2cwVZdXZoC18OTrUl3rU9ZIzJStWOh-)].
+   The file `dataset/home_value_prediction.csv` must exist before running any notebook. If not present, download it from [[home_dataset](https://drive.google.com/drive/folders/1U2cwVZdXZoC18OTrUl3rU9ZIzJStWOh-)] and link to your path.
 
-3. **Run notebooks in the following order:**
-
-   | Step | Notebook | Description |
-   |------|----------|-------------|
-   | 1 | `src/EDA+preprocessing.ipynb` | **Run this first.** Performs EDA and outputs cleaned/preprocessed data used by all model notebooks. |
-   | 2 | `src/logistic regression.ipynb` | Trains and evaluates Logistic Regression with multiple configurations. |
-   | 3 | `src/SVM.ipynb` | Trains and evaluates SVM with different kernels and parameters. |
-   | 4 | `src/Random forest.ipynb` | Trains and evaluates Random Forest with varying hyperparameters. |
-   | 5 *(optional)* | `src/Deep learning.ipynb` | Implements deep learning pipeline and compares with traditional ML. |
-
-4. **In each notebook**, use **Runtime → Run all** (Google Colab) or **Kernel → Restart & Run All** (Jupyter) to execute all cells.
-
-**Note:** Run `EDA+preprocessing.ipynb` before any model notebook, as it generates the preprocessed data and saved features used downstream.
+4. **In each notebook**, use **Runtime -> Run all** (Google Colab) or **Kernel -> Restart & Run All** (Jupyter) to execute all cells. Because the dataset is store in google drive, make sure you granted the notebook read folder access to read the dataset.
 
 ---
 
