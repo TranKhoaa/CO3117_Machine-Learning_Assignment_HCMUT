@@ -10,13 +10,13 @@
 
 ## Team Members
 
-| Full Name           | Student ID | Email                     |
-|---------------------|------------|---------------------------|
-| Trần Đăng Khoa      | 2252363    | khoa.tran906@hcmut.edu.vn |
-| Phan Trần Quốc Tuấn | 2353273    | email                     |
-| Trần Gia Lâm        | 2352670    | email                     |
-| Nguyễn Tấn Hưng     | 2352439    | email                     |
-| Nguyễn Hữu Cầu      | 2352129    | email                     |
+| Full Name           | Student ID | Email                           |
+|---------------------|------------|---------------------------------|
+| Trần Đăng Khoa      | 2252363    | khoa.tran906@hcmut.edu.vn       |
+| Phan Trần Quốc Tuấn | 2353273    | tuan.phantranquoc@hcmut.edu.vn  |
+| Trần Gia Lâm        | 2352670    | lam.trangia2352670@hcmut.edu.vn |
+| Nguyễn Tấn Hưng     | 2352439    | hung.nguyenth05@hcmut.edu.vn    |
+| Nguyễn Hữu Cầu      | 2352129    | cau.nguyen@hcmut.edu.vn         |
 
 ---
 
