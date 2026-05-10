@@ -42,15 +42,17 @@ This project applies the machine learning pipeline to a tabular dataset (Home Va
 │   ├── SVM.ipynb                   # Support Vector Machine training and evaluation
 │   ├── Random forest.ipynb         # Random Forest training and evaluation
 │   └── Deep learning.ipynb         # Deep learning pipeline and comparison
-├── dataset/
-│   └── home_value_prediction.csv   # dataset
-├── features/                       # Saved feature vectors (.npy / .h5)
 ├── reports/                        # Report
 └── README.md
 ```
 
 ---
-
+##Notebook's link:
+1. EDA + Data Preprocessing: [[EDA](https://drive.google.com/file/d/1yPvgBx0jGCPw1bOhj1QTQwlEJNDnsOHQ/view?usp=sharing)]
+2. Logistic Regression: [[Logistic Regression](https://drive.google.com/file/d/1PCAjhtkpOKLe7iE3q_wZIndgTUhwaGAR/view?usp=sharing)]
+3. Random Forest: [[Random Forest](https://drive.google.com/file/d/1sv8rRfaxgIAKM1S3_KyneAI1-efZoO5V/view?usp=sharing)]
+4. Support Vector Machine:[[SVM](https://drive.google.com/file/d/1NyJQp1jMcNp124ITrpmRm0wotYpzWBUU/view?usp=sharing)]
+5. Deep Learning:[[Deep Learning](https://drive.google.com/file/d/1GDPYnVGlYTEAnRen26_8aiflwkiu97MP/view?usp=sharing)]
 ##How to Run the Notebooks
 
 ### Prerequisites
@@ -70,7 +72,7 @@ pip install torch torchvision  # or: pip install tensorflow
    cd <repository-folder>
    ```
 2. **Ensure the dataset is in place:**  
-   The file `dataset/home_value_prediction.csv` must exist before running any notebook. If not present, download it from [[home_dataset](https://drive.google.com/drive/folders/1U2cwVZdXZoC18OTrUl3rU9ZIzJStWOh-)] and link to your path.
+   The file `dataset/home_value_prediction.csv` must exist before running any notebook. If not present, download it from [[home_dataset](https://huggingface.co/datasets/Kun-05/ML-Zillow-Prize)] and link to your path.
 
 4. **In each notebook**, use **Runtime -> Run all** (Google Colab) or **Kernel -> Restart & Run All** (Jupyter) to execute all cells. Because the dataset is store in google drive, make sure you granted the notebook read folder access to read the dataset.
 
