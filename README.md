@@ -53,6 +53,8 @@ This project applies the machine learning pipeline to a tabular dataset (Home Va
 3. Random Forest: [[Random Forest](https://drive.google.com/file/d/1sv8rRfaxgIAKM1S3_KyneAI1-efZoO5V/view?usp=sharing)]
 4. Support Vector Machine:[[SVM](https://drive.google.com/file/d/1NyJQp1jMcNp124ITrpmRm0wotYpzWBUU/view?usp=sharing)]
 5. Deep Learning:[[Deep Learning](https://drive.google.com/file/d/1GDPYnVGlYTEAnRen26_8aiflwkiu97MP/view?usp=sharing)]
+
+---
 ##How to Run the Notebooks
 
 ### Prerequisites
